@@ -32,6 +32,8 @@ const git = () => {
 {/* to push branch remotely : git push garda branch haru push hudaina*/}
   -git push -u origin branchname
 
+{/*sathi le branch remotely delete hanyo vani remote le delete hunxa but locally hunna ,git pull handa pani deletedbranch dekhauxa still in locally .to solve this problem & sync locally*/}
+-git fetch --prune
 {/* * merge branch: */}
            {/* way 1. */}
 		          merge 2 branches: -git merge branchname/main   (feature vanni branch ma basera main ma merge)
