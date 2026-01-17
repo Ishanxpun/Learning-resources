@@ -7,14 +7,16 @@ const git = () => {
 - git branch -M rename
  -git push -u origin main
 
-{/* *to create new branch: */}
+{/* *to create & switch new branch: */}
  -git checkout -b branchname
 
-{/* * to switch branch : */}
+{/* * to create branch : */}
  -git checkout branchname
 
 {/* * to delete branch: */}
   -git branch -d branchname  (branch delete garna xa vani next branch ma gayera balla delete garni. tei branch ma basera tei branch del hunnna)
+
+		{/*git branch handa afule banako sab branch dekhinxa,sathile banayera fetch haneko branch herna all branch command use:git branch -a  */}
 
 {/* * merge branch: */}
            {/* way 1. */}
