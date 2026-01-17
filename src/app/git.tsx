@@ -35,13 +35,13 @@ const git = () => {
 {/*sathi le branch remotely delete hanyo vani remote le delete hunxa but locally hunna ,git pull handa pani deletedbranch dekhauxa still in locally .to solve this problem & sync locally*/}
 -git fetch --prune
 		
-{/*sathi le banako branch ma lekhna, commit garna mildaina directly  */}
+{/*  */}
 		 Create a local branch tracking your friend’s branch :
 		-git checkout -b friend-branch origin/friend-branch
 							or
 		-git switch -c friend-branch origin/friend-branch
-              now u can edit and commit &
-		      push garni
+             
+		  
 {/* How to check tracking */}
 		-git branch -vv
 
