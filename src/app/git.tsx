@@ -9,6 +9,9 @@ const git = () => {
  -git push -u origin main
 -git push origin --delete oldbranch {/*remote ko branch delete garni*/}
 
+ {/* when u rename master branch to main ,github web ma chai master rename hunna but there will be 2 branches main and master(default) */}
+ {/* change default to main and delete master */}
+
 {/* * to create branch : */}
  -git branch branchname
 		
