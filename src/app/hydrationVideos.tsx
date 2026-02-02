@@ -10,6 +10,13 @@ const page = () => {
     if (!theme) return null;
   //server tries to render usetheme but cant render so return undefined and null is returned to server so sever stop rendering
   //client ko theme is used
+
+    //use mount better
+   const [mounted, setMounted] = useState(false); //render nothing on the server.
+
+  useEffect(() => setMounted(true), []); //useEffect runs only on the client → sets mounted = true.
+
+  if (!mounted) return null;  // ← wait until client
   return (
     <div>
     <div className='flex pt-40    '>
