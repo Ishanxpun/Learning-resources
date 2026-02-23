@@ -1,1 +1,22 @@
+#Jira is agile release provdut banna sath instead of at last ma
 
+#Board
+ kanban(time hudaina) & scrum(sprint use garxa i.e time to be done & effort)
+ sprint use garxa i.e time to be done & effort backlog ma halxa
+
+#epic is a collection of sprints/tasks 
+
+
+
+#hierarchy
+jira account instance- comapnywebsite
+  project1 project2
+    epic{
+       jiraissues:1.story
+                      -dubtask
+                  2.bug
+                  3.task}
+
+#keyboard shortcut:[ , 1 , 2 , e for epic,c to create,l for label,v for version
+
+#labes is like hash tag
