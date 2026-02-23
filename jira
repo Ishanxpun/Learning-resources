@@ -4,7 +4,19 @@
  kanban(time hudaina) & scrum(sprint use garxa i.e time to be done & effort)
  sprint use garxa i.e time to be done & effort backlog ma halxa
 
-#epic is a collection of sprints/tasks 
+
+#epic is a collection of issues
+
+
+#👉 Examples of issue types:
+
+Bug 🐞 (something broken)
+
+Task 📌 (a piece of work)
+
+Story 📖 (user requirement)
+
+Epic 🧱 (large body of work)
 
 
 
@@ -20,3 +32,6 @@ jira account instance- comapnywebsite
 #keyboard shortcut:[ , 1 , 2 , e for epic,c to create,l for label,v for version
 
 #labes is like hash tag
+
+
+sprint
